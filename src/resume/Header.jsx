@@ -4,8 +4,9 @@ const Header = () => {
   const [content, setcontent] = useState(true);
   
   const bio =
-    `Hi, My name is Salahuddin Sk.I am a junior mern stack web developer. I have done my B.Tech in Mechanical Engineering in 2020 .
-    I have hands on skills of web technologies likeHtml,CSS,JavaScript,Bootstrap , RecatJs ,Node js,Express and MongoDB. I have created real world projects using Html,Css and RecatJs.I also have skill of node js, Express js and MongoDb as a backend developer.And I have also made so many dummy projects . You can view my projects on  `;
+    `Hi, My name is Salahuddin Sk.I am a mern stack web developer. I have Experience on React js , Next js,Html ,Css and Js .
+    I also have hands on skills of Node js,Express and MongoDB. I have created real world projects using Html,Css and RecatJs and node, mongoDb.
+    I am also skilled with python and Django. You can view my projects on  `;
   return (
     <>
       <section class="secone">
