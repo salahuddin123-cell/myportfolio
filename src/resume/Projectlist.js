@@ -21,9 +21,10 @@ const Projectlist=[
         id:2,
         title:'project eight',
         desc:'A simple shoping cart',
-        img:'../img/todo3.png',
+        img:'',
        link:'/1',
-       site:''
+       site:'',
+       vdosrc:'https://www.youtube.com/embed/tgbNymZ7vqY'
       },
       
     {

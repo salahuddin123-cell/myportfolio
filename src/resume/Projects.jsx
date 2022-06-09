@@ -13,7 +13,9 @@ const Projects = () => {
      
     {Projectlist.map((item)=>{
     return  <div class="list">
-      <img src={item.img} alt="image" />
+    {item.img!==''? <img src={item.img} alt="image" />:<iframe width="420" height="315"
+src={item.vdosrc}>
+</iframe>} 
       <h3>{item.title}</h3>
       <p>{item.desc}</p>
       
