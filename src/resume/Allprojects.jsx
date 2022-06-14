@@ -12,10 +12,12 @@ const Allprojects = () => {
   }
     const {id}=useParams();
     const post=Projectlist[id];
-    const{title,img,desc,site}=post;
+    const{title,img,desc,site,vdosrc}=post;
     return (
         <><div className="bigpro">
-       <img id="project" src={img} alt={id} /> 
+    {img!==''? <img src={img} alt="image" />:<iframe width="420" height="315"
+src={vdosrc}>
+</iframe>} 
        <i class="fa fa-times fa-2x" onClick={handleClick}></i>
        {(site!=='')?<a href={site} target='_blank'>Visit site</a>:''}
         </div>
