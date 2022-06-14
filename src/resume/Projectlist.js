@@ -55,7 +55,7 @@ const Projectlist=[
         id:6,
         title:'project six',
         desc:'A simple social media app',
-
+       img:'',
        link:'/6',
        site:'',
        vdosrc:'https://www.youtube.com/embed/tgbNymZ7vqY'
