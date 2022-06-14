@@ -24,7 +24,7 @@ const Projectlist=[
         img:'../img/ecom2.png',
        link:'/2',
        site:'',
-       vdosrc:'https://www.youtube.com/embed/tgbNymZ7vqY'
+      
       },
       
     {
@@ -57,7 +57,8 @@ const Projectlist=[
         desc:'A simple social media app',
         img:'../img/social1.png',
        link:'/6',
-       site:''
+       site:'',
+       vdosrc:'https://www.youtube.com/embed/tgbNymZ7vqY'
     },
     {
         id:7,
