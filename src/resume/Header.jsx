@@ -53,12 +53,12 @@ const Header = () => {
             </p>
           </div>
           <div class="img">
-            <img src="img/saladinphoto.jpg" alt="sskphoto" />
+            <img src="img/myimg.jpg" alt="sskphoto" />
           </div>
           <div class="cv">
             <a
               id="down"
-              href="https://drive.google.com/file/d/1B3HBGeC1ggzJ_vbZBU5i_cW82v-reIaC/view?usp=sharing"
+              href="https://drive.google.com/file/d/1hJDehGN668jOHs7hdJqsotXZbTqDnjYP/view?usp=sharing"
               download=""
               target="_blank"
             >
