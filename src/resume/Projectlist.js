@@ -19,7 +19,7 @@ const Projectlist=[
       },
       {
         id:2,
-        title:'project thress',
+        title:'project three',
         desc:'A simple ecommerce site in Mern stack',
         img:'../img/ecom2.png',
        link:'/2',
@@ -29,7 +29,7 @@ const Projectlist=[
       
     {
         id:3,
-        title:'project three',
+        title:'project four',
         desc:'Covid19 tracker',
         img:'../img/covid.png',
         link:'/3',
@@ -38,19 +38,19 @@ const Projectlist=[
 
   
     {
-        id:5,
-        title:'project four',
+        id:4,
+        title:'project five',
         desc:'Weather app for current day and weekly forecast using react',
         img:'../img/weather.png',
-        link:'/5',
+        link:'/4',
         site:'https://myweatherappx.netlify.app/'
     },
     {
-        id:6,
-        title:'project five',
+        id:5,
+        title:'project six',
         desc:'A  social media app',
        img:'../img/social.png',
-       link:'/6',
+       link:'/5',
        site:'https://socialmediaaclone.netlify.app/',
        vdosrc:'https://www.youtube.com/embed/aZRMwLrwX44'
     },

@@ -3,7 +3,8 @@
  body{
   color: rgb(20, 22, 26);
     background-color: black;
-    width: auto;
+    width: 100vw;
+    overflow-x: hidden;
 
 }
 p{
@@ -231,7 +232,7 @@ a:hover{
     grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
     grid-gap: 1em;
     grid-auto-columns: 100px;
-    grid-auto-rows: minmax(200px,auto)
+    grid-auto-rows: minmax(200px,auto);
     
     
     
@@ -399,6 +400,9 @@ padding-top: 30px;
    #down{
        font-size: 15px;
    }
+   #aboutme{
+    transform: translateX(33px);
+   }
    .bio{
       padding: 10px 10px;
     text-align: left;
@@ -438,8 +442,21 @@ padding-top: 30px;
 }
 .list{
     transform: translateX(-10%);
+    width: 300px;
 }
 .bigpro img{
     width: 80vw;
+}
+.prolist{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    align-items: center;
+}
+.prolist >div{
+   
+
 }
 }
