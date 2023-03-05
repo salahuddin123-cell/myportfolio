@@ -49,7 +49,7 @@ const Header = () => {
                   github.
                 </a>
               </span>} 
-              <span><a className="btn btn-outline-primary btn-sm" onClick={()=>setcontent(!content)}>{content?'read more..':'readless'}</a></span>
+              <span><a className="btn btn-outline-primary btn-sm" onClick={()=>setcontent(!content)}>{content?'read more..':'read less.'}</a></span>
             </p>
           </div>
           <div class="img">
