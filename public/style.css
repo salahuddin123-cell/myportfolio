@@ -179,6 +179,7 @@ a:hover{
 .secone{
     height: auto;
     width: 100%;
+    overflow: hidden;
     background: rgb(130,222,208);
     background: linear-gradient(90deg, rgba(130,222,208,1) 29%, rgba(235,238,238,1) 100%);
 }
@@ -456,6 +457,11 @@ padding-top: 30px;
    }
    .wrap{
     width: 100%;
+
+}
+.wrap p{
+    width: 80%;
+    
 }
 
 .bigpro img{
