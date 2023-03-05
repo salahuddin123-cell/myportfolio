@@ -6,7 +6,7 @@ const Footer = () => {
           <section>
     <footer>
       <div class="copy">
-        <p>Copyright © 2021-2022 salahuddinsk933@gmail.com</p>
+        <p>Copyright © 2022-2023 salahuddinsk933@gmail.com</p>
       </div>
       <div class="socials" id="socials">
         <div class="social">

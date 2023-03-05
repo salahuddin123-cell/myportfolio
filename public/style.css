@@ -415,6 +415,18 @@ padding-top: 30px;
     width: 100%;
     
 }
+.prolist img {
+    height: 150px;
+    width:100%;
+    border-radius: 0px;
+  
+    
+}
+.list{
+    padding: 0 0 5px 0;
+    width: 100%;
+}
+
 .fa{
     transform: translate(350px,-472px);
 }
@@ -445,23 +457,17 @@ padding-top: 30px;
    .wrap{
     width: 100%;
 }
-.list{
-    transform: translateX(-10%);
-    width: 300px;
-}
+
 .bigpro img{
     width: 80vw;
 }
 .prolist{
     display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    
     justify-content: center;
 
     align-items: center;
 }
-.prolist >div{
-   
 
-}
 }

@@ -39,22 +39,22 @@ const Contact = () => {
           <h2>Contact me</h2>
          <form className="form" onSubmit={handleSubmit(onSubmit)}>
          <div className="mb-3">
-    <label for="fname" className="form-label"> Name :</label><br />
-    <input type="text"  className="form-control s" name='fname' value={info.fname||''} onChange={changleHnadler} required/>
+   {/* <label for="fname" className="form-label"> Name :</label><br /> */}
+    <input type="text"  className="form-control s" placeholder='Your Name' name='fname' value={info.fname||''} onChange={changleHnadler} required/>
     
   </div>
   <div class="mb-3">
-    <label for="lname" class="form-label">Phone: </label><br />
-    <input type="text" className="form-control s"  name='lname' value={info.lname||''} onChange={changleHnadler} required />
+ 
+    <input type="text" className="form-control s"  name='lname' placeholder='Your mobile number' value={info.lname||''} onChange={changleHnadler} required />
    
   </div>
   <div class="mb-3">
-    <label for="Email1" class="form-label">Email address :</label><br />
-    <input type="email" className="form-control s" name='email' value={info.email||''} onChange={changleHnadler} required  />
+   
+    <input type="email" className="form-control s" name='email' placeholder='Your Email' value={info.email||''} onChange={changleHnadler} required  />
    
   </div>
   
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary">Send</button>
 </form>
 
   
