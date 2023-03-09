@@ -1,10 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const Header = () => {
   const [content, setcontent] = useState(true);
-  
-  const bio =
-    `Hi, My name is Salahuddin Sk.I am a mern stack web developer. I have Experience on React js , Next js,Html ,Css and Js .
+  const [index, setindex] = useState(1);
+  useEffect(() => {
+    if (index == bio.length) return;
+    const timer = setTimeout(() => setindex(index + 1), 60);
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [index]);
+
+  const bio = `Hi, My name is Salahuddin Sk.I am a mern stack web developer. I have Experience on React js , Next js,Html ,Css and Js .
     I also have hands on skills of Node js,Express and MongoDB. I have created real world projects using Html,Css and RecatJs and node, mongoDb.
     I am also skilled with python and Django. You can view my projects on  `;
   return (
@@ -39,17 +46,21 @@ const Header = () => {
             <h2 id="aboutme">About me</h2>
 
             <p id="q">
-              {content ? bio.substring(0, 227) : bio}
+              {content ? bio.substring(0, index) : bio}
 
-             {content?'':<span>
+              {
+                index==bio.length &&
+                <>
                 <a
                   style={{ textDecoration: "none", color: "blueviolet" }}
                   href="https://gist.github.com/salahuddin123-cell"
                 >
                   github.
                 </a>
-              </span>} 
-              <span><a className="btn btn-outline-primary btn-sm" onClick={()=>setcontent(!content)}>{content?'read more..':'read less.'}</a></span>
+               
+                </>
+              }
+              {/* <span><a className="btn btn-outline-primary btn-sm" onClick={()=>setcontent(!content)}>{content?'read more..':'read less.'}</a></span> */}
             </p>
           </div>
           <div class="img">

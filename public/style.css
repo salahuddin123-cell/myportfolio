@@ -373,15 +373,31 @@ padding-top: 30px;
 @keyframes about-me{
     0%{
         color: red;
-        transform: translate(0px, 0px);
+       
+    }
+    30%{
+        color: rgb(255, 217, 0);
+      
+      
     }
     50%{
-        color: rgb(9, 255, 0);
-        transform: translate(10px ,10px);
+        color: rgb(34, 0, 255);
+       
+       
+    }
+    80%{
+        color: rgb(255, 0, 166);
+       
+     
+    }
+    90%{
+        color: rgb(0, 81, 255);
+      
+       
     }
     0%{
-        color: rgb(0, 81, 255);
-        transform: translate(20px ,20px);
+        color: rgb(255, 0, 187);
+     
     }
 }
 .bg-primary{

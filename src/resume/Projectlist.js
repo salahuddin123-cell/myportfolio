@@ -51,7 +51,7 @@ const Projectlist=[
         desc:'A  social media app',
        img:'../img/social.png',
        link:'/5',
-       site:'https://socialmediaaclone.netlify.app/',
+       site:'',
        vdosrc:'https://www.youtube.com/embed/aZRMwLrwX44'
     },
 
