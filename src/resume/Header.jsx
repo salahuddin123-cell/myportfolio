@@ -5,7 +5,7 @@ const Header = () => {
   const [index, setindex] = useState(1);
   useEffect(() => {
     if (index == bio.length) return;
-    const timer = setTimeout(() => setindex(index + 1), 60);
+    const timer = setTimeout(() => setindex(index + 1), 30);
     return () => {
       clearTimeout(timer);
     };

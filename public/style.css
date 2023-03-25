@@ -109,7 +109,7 @@ nav ul li :hover{
 @media (max-width:850px){
     .checkbtn{
         display: block;
-        transform: translateY(-16px);
+        transform: translate(-80px,-16px);
     }
 
     ul{
@@ -173,7 +173,7 @@ a:hover{
    padding-right: 10px;
    height: 80vh;
    width: 100%;
-   place-items: center;
+   /* place-items: center; */
   color: white;
    padding-top: 10vh;
 
@@ -454,11 +454,11 @@ color:rgb(255, 255, 255)
     width: 300px;
     height: 300px;
    }
-
+  
    .image{
-    position: absolute;
+   position: absolute;
     z-index: 1;
-    opacity: .5;
+    opacity: .9;
    }
    .skill{
      width: 80%;
@@ -508,7 +508,7 @@ color:rgb(255, 255, 255)
        padding: auto;
    }
    .fa{
-    transform: translate(150px,-472px);
+    transform: translate(-300px,-472px);
 }
    body{
        width: 100%;
