@@ -6,7 +6,7 @@
  body{
   color: rgb(20, 22, 26);
     background-color: black;
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden;
     background-image: url("./img/background.jpg");
     background-size: 400%;
@@ -542,6 +542,7 @@ color:rgb(255, 255, 255)
    }
    .wrap{
     width: 100%;
+    overflow: hidden;
 
 }
 .wrap p{
