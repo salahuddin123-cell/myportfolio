@@ -57,6 +57,7 @@ const Header = () => {
               {/* <span><a className="btn btn-outline-primary btn-sm" onClick={()=>setcontent(!content)}>{content?'read more..':'read less.'}</a></span> */}
             </p>
           </div>
+          <div className="image">
           <div class="img">
             <img src="img/myimg.png" alt="sskphoto" />
           </div>
@@ -68,7 +69,7 @@ const Header = () => {
               target="_blank"
             >
               Download Cv
-            </a>
+            </a></div>
           </div>
         </div>
         {/* <div class="custom-shape-divider-bottom-1678466912">

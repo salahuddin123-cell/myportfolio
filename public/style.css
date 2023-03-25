@@ -24,17 +24,19 @@ html{
     list-style: none;
 }
 nav{
-    width: 100%;
+  
     background-color:#2B263A;
     height: 80px;
     position: fixed;
+    width: 100%;
+    overflow: hidden;
 }
 label.logo{
     color: white;
     font-size: 35px;
     line-height: 80px;
 
-    padding: 0px 100px;
+    padding: 0px 50px;
 }
 nav ul{
     float: right;
@@ -167,7 +169,7 @@ a:hover{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(450px,1fr));
     grid-gap: 1em;
-    width: 80%;
+   
    padding-right: 10px;
    height: 80vh;
    width: 100%;
@@ -179,6 +181,7 @@ a:hover{
 .bodi{
     background-image: url("./img/background.jpg");
     background-size: cover;
+    min-height: 80vh;
 }
 /* li a{
     text-decoration: none;
@@ -213,8 +216,9 @@ a:hover{
 }
 .bio{
     margin: auto;
-   padding-left: 50px;
+   /* padding-left: 50px; */
    width: 40vw;
+ 
    font-family: 'Merriweather', serif;
 }
 .img{
@@ -445,6 +449,17 @@ color:rgb(255, 255, 255)
        flex-direction: column;
        
    }
+   .img img{
+    margin-top: 0;
+    width: 300px;
+    height: 300px;
+   }
+
+   .image{
+    position: absolute;
+    z-index: 1;
+    opacity: .5;
+   }
    .skill{
      width: 80%;
        margin: auto;
@@ -462,7 +477,7 @@ color:rgb(255, 255, 255)
     text-align: left;
     height: auto;
     width: 100%;
-    
+   z-index: 2;
 }
 .prolist img {
     height: 150px;
