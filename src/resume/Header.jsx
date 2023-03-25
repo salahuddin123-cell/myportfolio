@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const Header = () => {
   const [content, setcontent] = useState(true);
+  const [check,setcheck]=useState(false)
   const [index, setindex] = useState(1);
   useEffect(() => {
     if (index == bio.length) return;
@@ -15,8 +16,8 @@ const Header = () => {
   return (
     <div>
       <nav>
-        <input type="checkbox" name="" id="bars" />
-        <label for="bars" class="checkbtn">
+        
+        <label onClick={()=>setcheck(!check)} for="bars" class="checkbtn">
           <i class="fas fa-bars"></i>
         </label>
         <label class="logo" for="">
@@ -38,6 +39,20 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+      <ul className={check?'ul':'nul'}>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li class="m">
+            <a href="#skilll">Skills</a>
+          </li>
+          <li class="m">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="m">
+            <a href="#socials">Contact</a>
+          </li>
+        </ul>
       <div className="bodi">
         <div class="wrap">
           <div class="bio">

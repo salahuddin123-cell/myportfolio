@@ -41,6 +41,8 @@ label.logo{
 nav ul{
     float: right;
     margin-right: 20px;
+    display: flex;
+    flex-direction: row;
 }
 nav ul li{
     display: inline-block;
@@ -105,30 +107,55 @@ nav ul li :hover{
 #bars{
     display: none;
 }
-
+.nul{
+    display: none;
+}
 @media (max-width:850px){
     .checkbtn{
         display: block;
         transform: translate(-80px,-16px);
     }
 
-    ul{
-        position: absolute;
-        height: 80vh;
-        background: #91B5C7;
+   .ul{
+        flex-direction: column;
+        height: 60vh;
+        background: #262136;
         width: 100%;
-        top: 80px;
-        left: -100%;
-        z-index: 2;
+        position: relative;
+        position: absolute;
+        z-index: 5;
+        top: 13vh;
+        left:0;
         text-align: center;
-        transition: all .5s;
+       
     }
-    nav ul li{
-        display: block;
+     .ul li{
+       
+        line-height: 80px;
+        margin: 0px 5px;
+        color:white;
+        font-size: 14px;
+        text-transform: uppercase;
+       
     }
-    #bars:checked~ul{
-        left: 0;
+    .ul li a{
+        color: rgb(12, 12, 12);
+        padding: 2px;
+        border-radius: 3px;
+        font-weight: bold;
+        background-color: #71A6D8;
     }
+    .ul li a:hover{
+        color: white;
+        background: black;
+    }
+  .nul{
+    left: -100%;
+    top: -20px;
+    display: none;
+    transition: all .5s;
+  }
+   
 
 }
 
@@ -155,9 +182,7 @@ nav ul li :hover{
     font-family: 'Dela Gothic One', cursive;
 }
 
-.add{
-    
-}
+
 a{
     text-decoration: none;
    
@@ -173,7 +198,7 @@ a:hover{
    padding-right: 10px;
    height: 80vh;
    width: 100%;
-   /* place-items: center; */
+   place-items: center;
   color: white;
    padding-top: 10vh;
 
@@ -450,15 +475,14 @@ color:rgb(255, 255, 255)
        
    }
    .img img{
-    margin-top: 0;
-    width: 300px;
-    height: 300px;
+    display: none;
+
    }
   
    .image{
-   position: absolute;
-    z-index: 1;
-    opacity: .9;
+   /* position: absolute;
+    z-index: 1; */
+    
    }
    .skill{
      width: 80%;
@@ -510,9 +534,7 @@ color:rgb(255, 255, 255)
    .fa{
     transform: translate(-300px,-472px);
 }
-   body{
-       width: 100%;
-   }
+ 
 
    footer{
       width: auto;
