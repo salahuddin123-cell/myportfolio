@@ -12,7 +12,7 @@ const Projects = () => {
     <div className="prolist">
      
     {Projectlist.map((item)=>{
-    return  <div className="list">
+    return  <div className="list" >
     {item.img!==''? <img src={item.img} alt="image" />:<iframe width="420" height="315"
 src={item.vdosrc}>
 </iframe>} 
@@ -21,8 +21,10 @@ src={item.vdosrc}>
       
       <Link to={item.link} className="btn btn-outline-success" >View</Link>
       
-     
-      {/* <a className="btn btn-outline-success" href="https://www.salahuddin.tech/" target="_blank">View</a> */}
+     {/* <div className=''> 
+      hello
+     </div> */}
+   
     
     </div>
     })}
