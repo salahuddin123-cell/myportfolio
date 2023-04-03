@@ -52,7 +52,7 @@ const Projectlist = [
         id: 5,
         title: "project six",
         desc: "A  social media app",
-        des:"It is website taht allow users to create and delete a post ,comment and like other's post and chat with other users",
+        des:"It is website that allow users to create and delete a post ,comment and like other's post and chat with other users",
         img: "../img/social.png",
         link: "/5",
         site: "",
