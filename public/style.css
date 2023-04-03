@@ -472,6 +472,9 @@ color:rgb(255, 255, 255)
        flex-direction: column;
        
    }
+   .dummy{
+    display: none;
+   }
    .checkbtn{
     display: block;
     transform: translate(-80px,-16px);
