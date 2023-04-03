@@ -24,7 +24,7 @@ const Header = () => {
           <img src="img/sssk.png" alt="MY LOGO" />
         </label>
 
-        <ul>
+        <ul className="uul">
           <li>
             <a href="/">Home</a>
           </li>
@@ -74,7 +74,7 @@ const Header = () => {
           </div>
           <div className="image">
           <div class="img">
-            <img src="img/myimg.png" alt="sskphoto" />
+            <img src="img/sv.svg" alt="sskphoto" />
           </div>
           <div class="cv">
             <a
