@@ -413,22 +413,21 @@ color:rgb(255, 255, 255)
     font-weight: 600;
 }
 #down{
-    font-size: 30px;
-    color: rgb(223, 37, 145);
+    font-size: 20px;
+    margin-left: 20px;
+    color: #FF0000;
     text-decoration: none;
     transition: all .3s linear;
+}
+.dummy{
+    transform: translate(50px,-150px);
+    width: 100px;
+   color:#FF0000;
 }
 #down:hover{
     background: white;
 }
-#aboutme,#down{
-    animation: about-me 3s linear 2 alternate-reverse;
-    /* animation-duration: 3s;
-    animation-timing-function: linear;
-    animation-iteration-count: 2;
-    animation-direction: alternate-reverse; */
 
-}
 
 @keyframes about-me{
     0%{

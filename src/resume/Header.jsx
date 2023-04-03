@@ -76,6 +76,7 @@ const Header = () => {
           <div class="img">
             <img src="img/sv.svg" alt="sskphoto" />
           </div>
+          <p style={{fontSize:"12px"}} className="dummy">Hey! You are at right place</p>
           <div class="cv">
             <a
               id="down"
@@ -83,7 +84,7 @@ const Header = () => {
               download=""
               target="_blank"
             >
-              Download Cv
+              DOWNLOAD CV
             </a></div>
           </div>
         </div>
