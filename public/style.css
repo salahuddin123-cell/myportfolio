@@ -591,5 +591,32 @@ color:rgb(255, 255, 255)
 .custom-shape-divider-bottom-1678466912 .shape-fill {
     fill: #FFFFFF;
 }
-
-
+/* Tree style */
+.tree{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+.tree> div:nth-child(2){
+    width: 5px;
+    height:54vh;
+    
+    background-color: #04EBFF;
+}
+.tree> div:nth-child(1)>ul li{
+margin-top: 80px;
+}
+.tree> div:nth-child(3)>ul li{
+    margin-top: 80px;
+    }
+    .tree> div:nth-child(1)>ul {
+       transform: translateY(-80px);
+       text-align: end;
+       margin-right: 20px;
+        }
+        .tree> div:nth-child(3)>ul {
+            transform: translateY(-40px);
+             }

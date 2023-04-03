@@ -32,7 +32,7 @@ const Projects = () => {
     
     
     </div>
-        <h2>My projects</h2>
+        <h2>My Personal projects</h2>
 
         <div className="prolist">
           {Projectlist.map((item) => {

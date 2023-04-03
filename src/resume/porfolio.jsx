@@ -5,6 +5,7 @@ import Projects from './Projects'
 import Allprojects from './Allprojects'
 import Footer from './Footer'
 import Contact from './Contact'
+import Tree from './Tree'
 import { Link,BrowserRouter as Router,Routes,Route } from 'react-router-dom'
 function Porfolio() {
     return (
@@ -12,6 +13,7 @@ function Porfolio() {
 <Router>
 <Header/>
 <Skillsexp/>
+<Tree/>
 <Routes>
 <Route path="/" element={<Projects/>}/>
       <Route path="/:id" element={<Allprojects/>}/>
