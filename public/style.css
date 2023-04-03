@@ -262,7 +262,7 @@ a:hover{
 }
 .fa{
     color: red;
-    transform: translate(387px,-506px);
+    transform: translate(460px,-416px);
    background-color: black;
 }
 .fa:hover{
@@ -524,14 +524,16 @@ color:rgb(255, 255, 255)
 
 .fa{
     transform: translate(241px,-540px);
+    display: none;
 }
 #q{
     margin-left: 30px;
 }
 .bigpro img, .bigpro iframe{
-    width: 60vw;
+    width: 50vw;
     height: auto;
 }
+
 
 }
 @media screen and (max-width:500px) {

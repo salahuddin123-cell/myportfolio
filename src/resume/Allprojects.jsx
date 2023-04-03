@@ -41,8 +41,9 @@ console.log(data)
             ) : (
               <iframe width="420" height="315" src={data?.item?.vdosrc}></iframe>
             )}
+             <i class="fa fa-times fa-2x" onClick={handleClose}></i>
             <p style={{margin:"10px"}}>{data?.item?.des}</p>
-            <i class="fa fa-times fa-2x" onClick={handleClose}></i>
+           
             {data?.item?.site !== "" ? (
               <a href={data?.item?.site} target="_blank">
                 Visit site
