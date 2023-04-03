@@ -117,13 +117,13 @@ nav ul li :hover{
     }
    .ul{
         flex-direction: column;
-        height: 31vh;
+        height: 38vh;
         background: #262136;
         width: 100%;
         position: relative;
         position: absolute;
         z-index: 5;
-        top: 6vh;
+        top: 9vh;
         left:0;
         text-align: center;
        
