@@ -17,7 +17,7 @@ const Projectlist = [
         des:'In this website you can chat realtime with other users .You can search user to chat with them .Real time notification is also implemented. Chat data saves in data base.',
         img: "../img/chat.png",
         link: "/1",
-        site: "https://mytodos2.netlify.app/",
+        site: "https://massagebox.netlify.app/",
     },
     {
         id: 2,
