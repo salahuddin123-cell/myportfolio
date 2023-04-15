@@ -13,9 +13,9 @@ const Projectlist = [
     {
         id: 1,
         title: "project two",
-        desc: "A simple todo-list with React and Redux",
-        des:'This is a website that  offers a simple and intuitive to-do list application.The website features a clean and minimalist design with a white background and black text, and it allows users to create tasks and assign them to specific categories or projects.Users can easily add new tasks by typing them in the text box and pressing the "Add" button. The tasks are then displayed in a list format with checkboxes next to them, which users can check off once they are completed. The website also offers the ability to edit or delete tasks, as well as to filter them by category or project',
-        img: "../img/todo3.png",
+        desc: "Real time chat application using Mern ans socket.io",
+        des:'In this website you can chat realtime with other users .You can search user to chat with them .Real time notification is also implemented. Chat data saves in data base.',
+        img: "../img/chat.png",
         link: "/1",
         site: "https://mytodos2.netlify.app/",
     },
