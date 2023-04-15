@@ -13,7 +13,7 @@ const Projectlist = [
     {
         id: 1,
         title: "project two",
-        desc: "Real time chat application using Mern ans socket.io",
+        desc: "Real time chat application using Mern and socket.io",
         des:'In this website you can chat realtime with other users .You can search user to chat with them .Real time notification is also implemented. Chat data saves in data base.',
         img: "../img/chat.png",
         link: "/1",
